@@ -1,0 +1,40 @@
+import csv
+
+def patient_detail():
+    name = input("Enter the name ")
+    age = input("Enter the age ")
+    address = input("Enter the address ")
+    duration = input("Enter the duration ")
+    medication = input("Enter yes or no on medication ")
+    return name,age,address,duration,medication
+
+
+while True:
+    user_option = input("Enter\nadd---add new detail\nview---view new detail"
+                        "\nsearch---search\nexit---exit\n")
+    match user_option:
+        case 'add':
+            name,age,address,duration,medication = patient_detail()
+            with open("patient.csv", 'a', newline='\n') as f:
+                data_write = csv.writer(f)
+                data_write.writerow([name, age, address, duration, medication])
+
+        case 'view':
+            with open("patient.csv") as f:
+                data_read = csv.reader(f)
+                for i in data_read:
+                    print(i)
+
+        case 'search':
+            name = input("Enter the name of patient ")
+            with open("patient.csv") as f:
+                data_read = csv.reader(f)
+                for i in data_read:
+                    if name in i:
+                        print(i)
+
+        case 'exit':
+            break
+
+        case __:
+            print("Invalid")

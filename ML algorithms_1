@@ -1,0 +1,130 @@
+Data science ma 5 questions solve huncha:
+Q1 Is this A or B? -------------- Classification algorithm
+Q2 Is this weird? --------------- Anomaly algorithm
+Q3 How much or how many? -------- Regression algorithm
+Q4 How is this organized? ------- clustering algorithm
+Q5 What should be done next? ---- reinforcement learning
+
+ML algorithms
+classification algorithm
+- used to classify a record
+- tyesta prashna ma use huncha jasma limited number of answers huncha
+	aja garmi cha? yes or no
+	ghumna jane ho? yes, no or may be
+2 wota matrai choice cha vane 2 choice classification
+2 vanda dherai choice cha vane multi choice classification
+
+Anamoly detection algorithm
+ajib value detect garne 
+10 jana ma 9 jana ko tie cha ekjana ko chaina 
+tyo tie navako anamoly ho
+bank haru le card ma tyo use garna milcha 
+pattern and weird pattern check garera
+
+
+Regression algorithm
+numeric value calculate garna use huncha 
+voli ko temperature kati huncha?
+kunai product ko average rating kati huncha?
+
+clustering algorithms
+separates data into clusters
+unsupervised learning ma parcha
+data kasari organized huncha vanne herera we can predict the behavior of 
+a particular event
+
+reinforcement algorithm
+manche ko dimag le reward ra punishment ma adharit garne kam ma depend huncha
+similarly, system learn from outcomes and decide on next action vanne concept
+ho 
+effective for systems that needs to make lot of small decisions without human 
+guidance
+temperature control system ma ghataune ki badaune vanne herne
+chess game is good example 
+
+
+classification in ML
+is a process of categorizing a given set of data into classes 
+both structured and unstructured ma kam garcha 
+process starts with predicting the class of given data points 
+class lai target label or categories vanincha 
+eg:
+heart disease
+binary classification ho
+either disease huncha or hudaina 
+training dine esko lagi
+ani thaha huncha heart disease huncha ki nai vanera
+classification supervised learning ho
+so target is provided with input data
+
+
+types of learners in classification
+lazy learner
+	simply store the training data and wait until a testing data appears
+	classification ko lagi most related data use huncha 
+	have more predicting time in comaprison to eager learner
+	eg KNN
+	
+eager learner
+	constructs a classification model based on the given training data before
+	getting data for prediction
+	training ma dherai time lincha 
+	eg decision tree
+	naive bayes 
+common classification problems are:
+face recognition
+speech recognition
+	
+binary classification problem or multi class problem huna sakcha
+some of the ML algorithm for classification are:
+logistic regression
+K-nearest neighbor KNN
+decision tree
+Support vector machine (svm)
+Naive Bayes
+Random forest 
+Artificial neural network
+stochastic gradient descent 
+
+
+logistic regression
+is a classification algorithm in ML that uses one or more independent 
+variables to determine an outcome
+the outcome is measured with a dichotomous variable i.e it will have 
+only two possible outcomes
+
+goal of logistic regression is finding best fitting relation between dependent
+variable and set of independent variables
+it's better than other like KNN since it quantitatively explains the factors
+leading to classification
+adv:
+determines how a set of independent variables affects the outcome of a 
+dependent variable
+disadv:
+it only works when the predicted variable is binary
+so it assumes that the data is free of missing values and predictors are
+independent of each other
+eg:
+heart disease detection
+weather prediction 
+
+
+Naive Bayes classifier
+is a classification algorithm based on Bayes theorem which gives an 
+assumption of independence among predictors
+it assumes that presence of a feature in class is unrelated to the presence
+of any other feature
+- related cha vane pani probability independently add garcha 
+-easy to make and is good for large data sets
+- simple vayera pani it normally outperforms most of other classification
+methods in ML
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,128 @@
+statistics
+application of statistics in business world
+Finance
+	correlation and regression, index number, time series analysis
+	forecasting 
+	stock predictio hola
+marketing
+	hypothesis testing,chi- square tests, non parametric statistics
+	kati percent probability cha product yo barsha bikcha: hypothesis testing
+personel
+	hypothesis testing,chi- square tests, non parametric tests
+Operating management
+	hypothesis testing,estimation,analysis of variance, time series analysis
+types of statistics
+Descriptive statistics
+	methods of organizing,summarizing,and presenting data in informative way
+Inferential statistics
+	the methods used to determine something about a population on the basis of sample 
+	population:entire set
+	sample:part of the population of interest
+	
+inferential statistics:
+estimation
+	estimate the population
+hypothesis testing
+
+
+sampling 
+with replacement
+	member of population may be chosen more than once (picking candy from the bowl)
+without replacement
+	member of population may be chosen only once (lottery ticket)
+
+sampling methods:
+random
+	each member of the population has an equal chance of being selected
+	IPO bharda parne naparne chance same huncha 
+non random
+	kehi biasness ko ahdarma huncha 
+	sampling errors huncha 
+sample may not be large enough
+
+Random sampling methods:
+simple random sample
+	each sample of the same size has an equal chance of being selected
+stratified sample 
+	divide the population into groups called strata and then take sample from each
+	stratum
+cluster sample 
+	divide the population into strata and then randomly select some of the strata. All
+	the members from these strata are in cluster sample
+	
+systematic sample
+	randomly select a starting point and take every nth piece of data from a lisitng 
+	of the population
+	
+Descriptive statistics
+collect data
+	eg survey
+present data 
+	eg tables and graphs
+summarize data 
+	eg sample mean
+
+statistical data
+statistical data are usually obtained by counting or measuring items
+	primary data are collected specifically for the analysis desired 
+	secondary data have already been compiled and are available for statistical analysis
+variable can take on many different numerical values
+constant has fixed value
+
+Data
+Statistical data are usually obtained by counting or measuring items.
+Qualitative
+Quantitative 
+	
+
+
+variance is square of standard deviation
+
+Numerical scale of measurement
+Nominal 
+consist of categories in each of which the number of respective observations is recorded
+categories are in no logical order and have no particular relationship. The categories are
+said to be mutually exclusive since an individual, object or measurement can be included
+in only one of them
+
+Ordinal 
+contains more information
+consists of distinct categories in which order is implied. Values in one categories are 
+larger or smaller than values in other categories
+eg rating : excellent, good, poor etc
+
+Interval
+set of numerical measurement in which the distance between number is of known size
+
+Ratio
+Consists of numerical measurements where the distance between number is of known size,
+in addition there is a non arbitrary zero point
+
+
+
+
+
+DISTRIBUTION
+Types:
+frequency distribution
+Normal (gaussian distribution)
+probability distribution
+binomial distribution
+sampling distribution
+
+Normal distribution
+- is a descriptive model that describes real world situations
+- is defined as a continuous frequency distribution of infinite range (can take any values
+	not just integers as in case of binomial and poisson distribution)
+	
+- this is the most important probability distribution in statistics and important tool
+	in analysis of epidemiological data and management science
+characteristics of normal distribution
+- it links frequency distribution to probability distribution
+- has a bell shape curve and is symmetric 
+- it's symmetric around the mean: two halves of the curve are same(mirror image)
+mean = median
+the total area underthe curve is 1 (100%)
+normal distribution has the same shape as standard normal distribution
+
+	

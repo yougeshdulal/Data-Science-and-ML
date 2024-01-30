@@ -1,0 +1,41 @@
+# Import the necessary libraries
+import nltk
+from nltk.sentiment.vader import SentimentIntensityAnalyzer
+NLTK, or the Natural Language Toolkit, is a widely used library in the field of natural 
+language processing (NLP) and text analysis. It's a comprehensive library that provides 
+easy-to-use interfaces and 
+resources for working with human language data. 
+
+NLP 
+nlp le natural human language lai computer program ma usable banaune ma focus garcha 
+
+Tokenizing
+split up text by word or by sentence
+allow you to work with smaller pieces of text that are still relatively coherent and meaningful even outside of the context of the rest of the text. 
+first step in turning unstructured data into structured data, that makes easy to analyze.
+
+text lai analyze garda, tokenizing by words or tokenizing by sentence garincha 
+
+Tokenizing by word:
+Tokenizing your text by word allows you to identify words that come up particularly often
+for eg valentine day ko post herda love vanne word frequently aucha 
+
+Tokenizing by sentence:
+you can analyze how those words relate to one another and see more context. 
+
+
+Stemming
+
+root word ma lancha
+working cha vane work banaune
+
+Tagging Parts of Speech
+
+Part of speech is a grammatical term that deals with the roles words play when you use them together in sentences. Tagging parts of speech, or POS tagging, is the task of labeling the words in your text according to their part of speech.
+
+noun pronoun adjective verb conjunction
+
+
+Lemmatizing
+
+stemming jastai ho, but it gives complete word

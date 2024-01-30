@@ -1,0 +1,15 @@
+create a new folder
+right click inside that and select git bash here
+inside git bash
+git init
+git remote add origin "https://github.com/DigitalMonk-RS/test.git"
+git pull origin main
+git add 'r1.txt'
+git commit -m "re added"
+git push origin master
+
+
+//for adding all files at once
+git add -A
+git commit -a -m "all added"
+git push origin master
